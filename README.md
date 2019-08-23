@@ -61,7 +61,7 @@ aws_secret_access_key=your_secret_access_key
 Now lets download this repository. Run
 
 ```
-git clone https://github.com/iestarks/hitachi_cfwordpress_lab
+git clone https://github.com/iestarks/hitachi_cf_wordpress_lab.git
 ```
 
 Add the following to file `/etc/ansible/hosts`
