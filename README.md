@@ -98,6 +98,8 @@ Next, after you select the language of your choice, enter your details
 
 <img src="Wordpress_Login_page.png">
 
+Now you will see the login page using your credentials created above,
+
 <img src="Wordpress_Login2_page.png">
 
 Now you are done. You will see the following,
