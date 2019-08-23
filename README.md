@@ -29,7 +29,7 @@ The following stacks were built using Ansible Playbook
 
 <img src="Wordpress_Menu_page.png">
 
-### Instructions to Use (For Linux-Ubuntu Users)
+### Instructions to Use (For Linux-Ubuntu/Redhat Users)
 
 1. Create a keypair by logging into your AWS console, click on EC2, stroll down and you will see keypair on left menu. 
 
@@ -88,7 +88,7 @@ ansible-playbook -i /etc/ansible/hosts automate.yml --vvvv
 Once the stack creation is complete open your browser and goto  (replace WebServerPublicIp with your WebServers IP)
 
 ```
-http://WebServerPublicIp/wordpress/wp-admin/install.php
+http://WebServer-PublicIp/wordpress/wp-admin/install.php
 ```
 
 You will see the setup page as below 
