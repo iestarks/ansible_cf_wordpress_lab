@@ -9,7 +9,6 @@ Pre-Requisites:
 - git
 - python3-boto
 - ansible
-- 
 
 The following stacks were built using Ansible Playbook
 
