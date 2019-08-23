@@ -26,8 +26,6 @@ The following stacks were built using Ansible Playbook
 
 <img src="Candidate-nRXamt0J4K-CF.drawio.JPG">
 
-<img src="Wordpress_Menu_page.png">
-
 ### Instructions to Use (For Linux-Ubuntu/Redhat Users)
 
 1. Create a keypair by logging into your AWS console, click on EC2, stroll down and you will see keypair on left menu. 
@@ -92,10 +90,11 @@ http://WebServer-PublicIp/wordpress/wp-admin/install.php
 
 You will see the setup page as below 
 
+<img src="Wordpress_Menu_page.png">
+
 <img src="Wordpress_Install_page.png">
 
 Next, after you select the language of your choice, enter your details 
-
 
 <img src="Wordpress_Login_page.png">
 
