@@ -99,8 +99,8 @@ Next, after you select the language of your choice, enter your details
 
 
 <img src="Wordpress_Login_page.png">
-img src="Wordpress_Login_page.png">
-img src="Wordpress_Login2_page.png">
+<img src="Wordpress_Login_page.png">
+<img src="Wordpress_Login2_page.png">
 
 Now you are done. You will see the following,
 
