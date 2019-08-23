@@ -1,4 +1,4 @@
-# Deploying Wordpress Site using Ansible and CloudFormation
+# Deploying Wordpress Site using CloudFormation and Ansible 
 
 This is a wordpress site using Ansible and CloudFormation Template. 
 The following Prerequisites will need to be installed on the ansible server. 
