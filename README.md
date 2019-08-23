@@ -84,6 +84,8 @@ ansible-playbook -i /etc/ansible/hosts automate.yml --vvvv
 
 Once the stack creation is complete open your browser and goto  (replace WebServerPublicIp with your WebServers IP)
 
+<img src="AWS_CF_Gui_Screenshot.JPG">
+
 ```
 http://WebServer-PublicIp/wordpress/wp-admin/install.php
 ```
