@@ -27,7 +27,7 @@ The following stacks were built using Ansible Playbook
 
 <img src="Candidate-nRXamt0J4K-CF.drawio.JPG">
 
-<img src="Wordpress_Menu_page">
+<img src="Wordpress_Menu_page.png">
 
 ### Instructions to Use (For Linux-Ubuntu Users)
 
