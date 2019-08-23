@@ -25,6 +25,8 @@ The following stacks were built using Ansible Playbook
   - 1 Internet Gateway
   - 1 Route Table and 1 Route for the internet attached to the Public Subnet
 
+<img src="Candidate-nRXamt0J4K-CF.drawio.JPG">
+
 <img src="Wordpress_Menu_page">
 
 ### Instructions to Use (For Linux-Ubuntu Users)
@@ -74,13 +76,13 @@ localhost
 Then,
 
 ```
-cd deploy-wordpress/
+cd ~/.aws
 ```
 
 and provision the stack run the following,
 
 ```
-ansible-playbook -i /etc/ansible/hosts deploy-wp.yml --verbose
+ansible-playbook -i /etc/ansible/hosts automate.yml --vvvv
 ```
 
 Once the stack creation is complete open your browser and goto  (replace WebServerPublicIp with your WebServers IP)
@@ -91,14 +93,17 @@ http://WebServerPublicIp/wordpress/wp-admin/install.php
 
 You will see the setup page as below 
 
-<img src="startup.png">
+<img src="Wordpress_Install_page.png">
 
 Next, after you select the language of your choice, enter your details 
 
-<img src="Details.png">
+
+<img src="Wordpress_Login_page.png">
+img src="Wordpress_Login_page.png">
+img src="Wordpress_Login2_page.png">
 
 Now you are done. You will see the following,
 
-<img src="SetupComplete.png">
+<img src="Wordpress_CompleteMenu_page.png">
 
 ### References
