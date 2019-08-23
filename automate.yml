@@ -1,0 +1,18 @@
+---
+  - name:
+    hosts: localhost
+    connection: local
+    gather_facts: False
+    vars_files:
+    - group_vars/all.yml
+    tasks:
+      - name: Deploy-Wordpress-Stack
+        cloudformation:
+          stack_name: "{{ stack_name}}"
+          state: "present"
+          region: "us-east-1"
+          disable_rollback: true
+          template: "/home/ubuntu/.aws/Ansible_WP/files/wordpress-ansible-cf.template"
+        register: cf_wordpress_stack
+      - debug: msg=""
+      - debug: msg=""
